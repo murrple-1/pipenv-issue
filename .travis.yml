@@ -8,7 +8,7 @@ python:
 cache: pip
 before_install:
   - pip install pipenv
-  - python -m pipenv.help
+  - python -m pipenv.help || true
 install:
   - pipenv install
 script:
