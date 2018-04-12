@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-aiosmtpd = {version = "*", python_version = ">= '3.5'"}
+aiosmtpd = {version = "*", markers = "python_version >= '3.5'"}
 
 [dev-packages]
 
