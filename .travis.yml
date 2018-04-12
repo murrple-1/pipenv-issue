@@ -10,3 +10,5 @@ before_install:
   - pip install pipenv
 install:
   - pipenv install
+script:
+  - true
