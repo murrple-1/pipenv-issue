@@ -10,6 +10,6 @@ before_install:
   - pip install pipenv
   - python -m pipenv.help || true
 install:
-  - pipenv install
+  - pipenv install --verbose
 script:
   - true
